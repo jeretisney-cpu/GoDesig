@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de producción audiovisual, diseño y edición de Jeremy Gustavo Tisalema Neira.">
+  <title>Go Design! | Producción Audiovisual, Diseño y Edición</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:wght@700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BARRA LATERAL FIJA (ESCRITORIO) -->
+  <aside class="side-rail" aria-label="Barra lateral de marca">
+    <a class="brand-mark" href="#inicio">GOD<span>!</span></a>
+
+    <div class="rail-bottom">
+      <p class="rail-label">Producción y<br>Diseño</p>
+      <div class="social-links">
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+        <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X">X</a>
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <div class="site-wrapper">
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="site-header">
+      <a class="mobile-brand" href="#inicio">GOD<span>!</span></a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- PORTADA / HERO -->
+      <section class="hero" id="inicio">
+        <div class="hero-backdrop" style="background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1800&q=85');"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <span class="hero-kicker">JEREMY GUSTAVO TISALEMA NEIRA</span>
+            <h1>Go Design!</h1>
+            <p>Editor y Productor Audiovisual</p>
+            <a class="more-link" href="#proyectos">Ver para más <span>&rarr;</span></a>
+          </div>
+        </div>
+
+        <div class="color-swatches" aria-label="Paleta de color de la marca">
+          <span class="swatch swatch-steel" title="Azul Acero"></span>
+          <span class="swatch swatch-cream" title="Crema Suave"></span>
+        </div>
+      </section>
+
+      <!-- SOBRE NOSOTROS -->
+      <section class="about" id="sobre-mi">
+        <div class="section-heading">
+          <span class="section-tag">PERFIL PROFESIONAL</span>
+          <h2>Sobre mí</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-intro">
+            <h3>Convertimos tus ideas<br>en historias conectadas.</h3>
+            <p>
+              Para cada proyecto, desarrollo una propuesta audiovisual que combina creatividad, narrativa y precisión técnica, desde la conceptualización y la producción hasta la edición y la entrega final. Mi objetivo es transformar cada idea en una pieza visual con identidad y propósito.
+            </p>
+            <p>
+              Mi experiencia me permite trabajar en diversas etapas del proceso audiovisual, adaptando el lenguaje visual a las necesidades específicas de cada proyecto y cuidando cada detalle para lograr resultados dinámicos, atractivos y profesionales.
+            </p>
+          </article>
+
+          <div class="specialties">
+            <h3>Nuestras<br>especialidades:</h3>
+
+            <div class="specialty">
+              <span class="specialty-icon" aria-hidden="true">◎</span>
+              <div>
+                <h4>Producción audiovisual</h4>
+                <p>Dirección, cámara, iluminación y planificación en set.</p>
+              </div>
+            </div>
+
+            <div class="specialty">
+              <span class="specialty-icon" aria-hidden="true">▷</span>
+              <div>
+                <h4>Motion graphics y contenido digital</h4>
+                <p>Piezas dinámicas, animación y formatos para redes.</p>
+              </div>
+            </div>
+
+            <div class="specialty">
+              <span class="specialty-icon" aria-hidden="true">✂</span>
+              <div>
+                <h4>Edición de video</h4>
+                <p>Ritmo narrativo, montaje, color y postproducción.</p>
+              </div>
+            </div>
+          </div>
+
+          <figure class="about-image">
+            <img
+              src="https://images.pexels.com/photos/31718971/pexels-photo-31718971/free-photo-of-post-podruccion-premier-de-adobe.jpeg?cs=tinysrgb&dpr=1&w=500"
+              alt="Editor trabajando frente a una estación de edición de video"
+            >
+          </figure>
+        </div>
+      </section>
+
+      <!-- PROYECTOS -->
+      <section class="projects" id="proyectos">
+        <div class="section-heading">
+          <span class="section-tag">PORTAFOLIO SELECCIONADO</span>
+          <h2>Proyectos</h2>
+        </div>
+
+        <div class="projects-grid">
+          <button
+            type="button"
+            class="project-card"
+            data-title="Editamos tu creatividad"
+            data-category="Cobertura Audiovisual"
+            data-description="Registro multicámara, captura de eventos en vivo y piezas resumen ágiles con audio limpio."
+            data-image="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=900&q=80"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=900&q=80"
+              alt="Cobertura audiovisual"
+            >
+            <span class="project-overlay">
+              <span class="vertical-label">Post-producción</span>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            class="project-card"
+            data-title="Como ningúna otra"
+            data-category="Fotografía y Óptica"
+            data-description="Dirección fotográfica, retratos y composiciones visuales con estética cuidada y control de luz."
+            data-image="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=80"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=80"
+              alt="Fotografía y óptica"
+            >
+            <span class="project-overlay">
+              <span class="vertical-label"> Fotografías Únicas</span>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            class="project-card"
+            data-title="a pantalla grande"
+            data-category="Producción en Set"
+            data-description="Planificación de rodaje, iluminación de estudio, encuadre cinematográfico y coordinación de escena."
+            data-image="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?auto=format&fit=crop&w=900&q=80"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?auto=format&fit=crop&w=900&q=80"
+              alt="Producción en set"
+            >
+            <span class="project-overlay">
+              <span class="vertical-label">Guinización y Producción</span>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            class="project-card"
+            data-title="Montaje y Diseño"
+            data-category="Edición y Postproducción"
+            data-description="Montaje narrativo, ritmo visual, motion graphics, corrección de color y diseño sonoro."
+            data-image="https://universidadeuropea.com/resources/media/images/editor-video-800x450.width-640.format-png.png"
+          >
+            <img
+              src="https://universidadeuropea.com/resources/media/images/editor-video-800x450.width-640.format-png.png"
+              alt="Edición y postproducción"
+            >
+            <span class="project-overlay">
+              <span class="vertical-label">Montaje y Diseño</span>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section class="contact-section" id="contacto">
+        <div class="contact-box">
+          <span class="section-tag">TRABAJEMOS YA</span>
+          <h2>Hablemos de tu próximo proyecto</h2>
+          <p class="contact-lead">
+            Cuéntame sobre tu idea, marca o pieza audiovisual y armemos una propuesta a medida.
+          </p>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <label class="sr-only" for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+
+              <label class="sr-only" for="correo">Correo electrónico</label>
+              <input id="correo" name="correo" type="email" placeholder="tu@correo.com" required>
+            </div>
+
+            <label class="sr-only" for="mensaje">Detalles del proyecto</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntame qué necesitas producir, editar o diseñar..." required></textarea>
+
+            <div class="form-actions">
+              <button type="submit" class="submit-btn">Enviar mensaje &rarr;</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p>&copy; 2026 Jeremy Gustavo Tisalema Neira &middot; Go Design!</p>
+      <a href="#inicio" class="back-to-top">Volver arriba &uarr;</a>
+    </footer>
+
+  </div>
+
+  <!-- MODAL DE DETALLE DE PROYECTO -->
+  <div class="project-modal" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-content">
+      <button type="button" class="modal-close" id="modal-close" aria-label="Cerrar detalle">&times;</button>
+      <img id="modal-image" src="" alt="">
+      <div class="modal-body">
+        <span class="section-tag" id="modal-category"></span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+        <a href="#contacto" class="more-link modal-cta" id="modal-contact-btn">Cotizar este servicio &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Menú hamburguesa en móvil
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mainNav = document.getElementById('main-nav');
+    const navLinks = mainNav.querySelectorAll('.nav-link');
+
+    menuToggle.addEventListener('click', () => {
+      const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+      menuToggle.setAttribute('aria-expanded', String(!expanded));
+      mainNav.classList.toggle('open');
+    });
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        const targetId = link.getAttribute('href');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        mainNav.classList.remove('open');
+
+        if (targetId === '#contacto') {
+          setTimeout(() => {
+            const nameInput = document.getElementById('nombre');
+            if (nameInput) nameInput.focus({ preventScroll: true });
+          }, 450);
+        }
+      });
+    });
+
+    // Resaltar enlace activo según la sección visible
+    const sections = document.querySelectorAll('main section[id]');
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            navLinks.forEach(link => {
+              link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+            });
+          }
+        });
+      },
+      { threshold: 0.45 }
+    );
+    sections.forEach(section => observer.observe(section));
+
+    // Modal interactivo en tarjetas de proyectos
+    const modal = document.getElementById('project-modal');
+    const modalBackdrop = document.getElementById('modal-backdrop');
+    const modalClose = document.getElementById('modal-close');
+    const modalImage = document.getElementById('modal-image');
+    const modalCategory = document.getElementById('modal-category');
+    const modalTitle = document.getElementById('modal-title');
+    const modalDescription = document.getElementById('modal-description');
+    const modalContactBtn = document.getElementById('modal-contact-btn');
+    const mensajeTextarea = document.getElementById('mensaje');
+
+    function openProjectModal(card) {
+      modalImage.src = card.dataset.image;
+      modalImage.alt = card.dataset.title;
+      modalCategory.textContent = card.dataset.category;
+      modalTitle.textContent = card.dataset.title;
+      modalDescription.textContent = card.dataset.description;
+      modal.hidden = false;
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeProjectModal() {
+      modal.hidden = true;
+      document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('.project-card').forEach(card => {
+      card.addEventListener('click', () => openProjectModal(card));
+    });
+
+    modalClose.addEventListener('click', closeProjectModal);
+    modalBackdrop.addEventListener('click', closeProjectModal);
+
+    modalContactBtn.addEventListener('click', () => {
+      const projectName = modalTitle.textContent;
+      closeProjectModal();
+      mensajeTextarea.value = `Hola, me gustaría consultar sobre un proyecto de tipo: ${projectName}. `;
+      setTimeout(() => mensajeTextarea.focus({ preventScroll: true }), 450);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !modal.hidden) {
+        closeProjectModal();
+      }
+    });
+
+    // Formulario de contacto
+    const contactForm = document.getElementById('contact-form');
+    const formStatus = document.getElementById('form-status');
+
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const nombre = document.getElementById('nombre').value.trim();
+      formStatus.textContent = `¡Gracias, ${nombre}! Tu mensaje ha sido enviado correctamente.`;
+      contactForm.reset();
+    });
+  </script>
+</body>
+</html>
